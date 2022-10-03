@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common aosp stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from common.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -38,6 +39,8 @@ TARGET_VENDOR_PRODUCT_NAME := bahamut
 # Fingerprint
 BUILD_FINGERPRINT := google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys
 BUILD_DESCRIPTION := redfin-user 12 SPB5.210812.002 7671067 release-keys
+
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)

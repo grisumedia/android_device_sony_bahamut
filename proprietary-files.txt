@@ -39,6 +39,8 @@ lib/vendor.somc.hardware.camera.provider@1.0.so
 lib64/lib-camshim.so
 lib64/libcacao_client.so
 lib64/libcacao_pal.so
+lib64/android.hidl.manager@1.0.so
+system_ext/lib64/android.hidl.base@1.0.so
 
 # CNE
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar

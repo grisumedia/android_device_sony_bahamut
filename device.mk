@@ -142,8 +142,6 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-# NFC
-PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     NfcNci \
     SecureElement \
@@ -160,7 +158,8 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    lib-imsvtshim
+    lib-imsvtshim \
+    lib-watermarkshim
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

@@ -66,9 +66,13 @@ function blob_fixup() {
     system_ext/lib64/libwfdnative.so)
         sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
         ;;
+    lib64/libcacao_client.so)
+        "${PATCHELF}" --add-needed "libbinder.so" --add-needed "lib-watermarkshim.so" "${2}"
+        ;;
     system_ext/lib64/lib-imsvideocodec.so )
     "${PATCHELF}" --add-needed "lib-imsvtshim.so" "${2}"
-    ;; 
+        ;; 
+
     esac
 }
 
