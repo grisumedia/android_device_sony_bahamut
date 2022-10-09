@@ -26,6 +26,8 @@ lib64/libimageprocessorjni.so
 bin/cacaoserver
 etc/init/cacaoserver.rc
 lib/lib-camshim.so
+lib/libcacao_client.so
+lib/libcacao_pal.so
 lib/libcacao_pal.so
 lib/libcacao_process_ctrl_gateway.so
 lib/libcacao_service.so

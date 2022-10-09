@@ -93,7 +93,8 @@ PRODUCT_PACKAGES_DEBUG += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Snap \
+    android.hardware.camera.provider@2.4
 
 # Common init scripts
 PRODUCT_PACKAGES += \
@@ -122,6 +123,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhidltransport \
     libhwbinder \
+    android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0_system
 
