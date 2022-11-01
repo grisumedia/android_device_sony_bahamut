@@ -37,8 +37,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 TARGET_VENDOR_PRODUCT_NAME := bahamut
 
 # Fingerprint
-BUILD_FINGERPRINT := google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys
-BUILD_DESCRIPTION := redfin-user 12 SPB5.210812.002 7671067 release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:13/TP1A.220905.004/8927612:user/release-keys
+BUILD_DESCRIPTION := redfin-user 13 TP1A.220905.004 8927612 release-keys
 
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
